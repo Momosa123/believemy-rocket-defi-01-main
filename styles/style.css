@@ -1,4 +1,6 @@
 
+/* fonts for healines AND PARAGRAPHS */
+@import url(https://fonts.bunny.net/css?family=aclonica:400|alumni-sans:700);
 /* petit reset minimal de base */
 *,
 *::before,
@@ -68,7 +70,13 @@ h1, h2, h3, h4, h5, p {
   word-wrap: break-word;
   word-break: break-word;
 }
+h1, h2, h3, h4, h5 {
+  font-family: 'Aclonica', sans-serif;
+}
 
+p{
+  font-family: 'Alumni Sans', sans-serif;
+}
 /* Header styling */
 .contacts{
   padding: 0.5rem;
