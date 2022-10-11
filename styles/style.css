@@ -41,6 +41,10 @@ body {
   background-color: #efefef;
 }
 
+section{
+  padding: 7rem 12% 0;
+}
+
 img,
 video,
 picture {
@@ -76,6 +80,7 @@ h1, h2, h3, h4, h5 {
 
 p{
   font-family: 'Alumni Sans', sans-serif;
+  font-size: 2rem;
 }
 /* Header styling */
 .contacts{
@@ -94,6 +99,8 @@ p{
 /* navbar styling */
 nav{
   position: sticky;
+  top: 0rem;
+  background-color: #d6d6d6;
   padding: 0.5rem;
   display: flex;
   justify-content: space-between;
@@ -104,10 +111,15 @@ nav{
   display: flex;
   gap: 1rem;
 }
+
+.first-color-icon{
+  fill:red
+}
 .my-name{
   font-weight: bold;
 }
-.color-highlight{
+.first-color-highlight{
+  font-weight: bold;
   color: rgb(212, 16, 16);
 }
 
@@ -119,9 +131,45 @@ li a{
 
 /* Hero section styling */
 .hero-section{
+  background-color: #d6d6d6;
   margin: 0 auto;
-  width: 80%;
-  padding-top: 4rem;
+  width: 100%;
   display: flex;
+  align-items: flex-end;
  
+}
+
+.hero-section-part{
+ min-width: 20rem;
+  margin-bottom: 4rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  gap: 5rem;
+}
+
+.hero-img-container{
+  margin: 0rem 3rem;
+}
+
+.hero-section-part ul{
+  margin-left: 4rem;
+}
+/* section service styling  */
+.services-section{
+  display: flex;
+}
+.services{
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.services:first-child{
+  width: 40%;
+}
+
+.service{
+  padding: 1rem;
+  border: 1px solid red;
 }
