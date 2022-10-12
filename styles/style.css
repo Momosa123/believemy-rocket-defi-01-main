@@ -43,6 +43,7 @@ body {
 
 section{
   padding: 7rem 12% 0;
+  
 }
 
 img,
@@ -112,9 +113,7 @@ nav{
   gap: 1rem;
 }
 
-.first-color-icon{
-  fill:red
-}
+
 .my-name{
   font-weight: bold;
 }
@@ -158,6 +157,7 @@ li a{
 /* section service styling  */
 .services-section{
   display: flex;
+  gap: 1rem;
 }
 .services{
   display: flex;
@@ -172,4 +172,119 @@ li a{
 .service{
   padding: 1rem;
   border: 1px solid red;
+  border-radius: 5px;
+  background-color: rgb(6, 6, 70);
+  display: flex;
+  gap: 1rem
 }
+
+.second-color-highlight{
+  color: rgb(255,140,0);
+  font-weight: bold;
+}
+
+.third-color-highlight{
+  color: rgb(30,144,255);
+  font-weight: bold;
+}
+
+/* presentation styling */
+.presentation-section{
+  display: flex;
+  gap:2rem
+}
+
+.presentation-part{
+  margin-top: 7rem;
+
+}
+
+.presentation-part + div{
+  min-width: 45%;
+}
+
+/* Competences sectiion */
+.titre-section{
+  text-align: center;
+  margin-bottom: 5rem;
+}
+h2{
+  margin-bottom: 0.75rem;
+  color: rgb(20, 78, 136);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+h2::before, h2::after{
+  content:'';
+  display: block;
+  width: 15rem;
+  border-top: 1px solid black
+}
+
+h4{
+  margin-bottom: 1.5rem;
+}
+.competences{
+  display: flex;
+  gap: 15rem
+}
+
+.domaine-competence{
+  margin-left: 15rem;
+  min-width: fit-content;
+}
+
+.competence + span{
+  margin-left: 3rem;
+}
+
+.competences-list li{
+  padding-bottom: 1rem;
+  /* display: flex;
+  align-items: center; */
+}
+
+
+li p::before{
+
+  margin-right: 0.75rem;
+  content: '';
+  display: inline-block;
+  background-image: url('../assets/icons/icon-round-check.svg');
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+.competence-details{
+  font-size: smaller;
+  margin-left: 2.25rem;
+  font-style: italic;
+}
+
+.conteneur-icones-competences{
+  margin-bottom: 2rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 3rem;
+  justify-content:space-around
+}
+
+.icone-developpement{
+  width: 6rem;
+}
+
+.tailwind{
+  width: 8rem;
+}
+
+.mongoDB{
+  width: 12rem;
+}
+
+.icone-conception-graphique{
+  width: 3rem;
+}
+
