@@ -17,14 +17,15 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="./styles/style.css" />
+    <script defer src="app.js"></script>
     <title>Mon Portfolio</title>
   </head>
 
   <body>
     <!-- Header Section -->
     <header>
-      <div class="contacts">
-        <div class="contact">
+      <div class="flex-item contacts">
+        <div class="contact flex-item">
           <object
             data="./assets/icons/icon-email_res.svg"
             width="15"
@@ -34,7 +35,7 @@
           <p>mlamine@dev.com</p>
         </div>
 
-        <div class="contact">
+        <div class="flex-item contact">
           <object
             data="./assets/icons/icon-linkedin_res.svg"
             width="20"
@@ -57,7 +58,7 @@
           ></object>
         </div>
 
-        <div class="contact">
+        <div class="flex-item contact">
           <p>+33684088165</p>
           <object
             data="./assets/icons/icon-phone_res.svg"
@@ -70,7 +71,7 @@
     </header>
 
     <!-- Navbar section  -->
-    <nav>
+    <nav class="flex-item">
       <div>
         <p class="my-name">
           Mlamine<span class="first-color-highlight">DEV</span>
@@ -115,9 +116,9 @@
     </section>
 
     <!-- Services section -->
-    <section class="services-section">
-      <div class="services">
-        <div class="service">
+    <section class="flex-item services-section">
+      <div class="flex-item services">
+        <div class="flex-item service">
           <object
             data="assets/icons/icon-web-dev_res.svg"
             width="25"
@@ -170,7 +171,7 @@
     </section>
 
     <!-- Presentation Section -->
-    <section class="presentation-section">
+    <section class="flex-item presentation-section">
       <div class="presentation-part">
         <h3>Je suis un développeur web passionné</h3>
 
@@ -204,7 +205,7 @@
         <h2>Mes compétences</h2>
         <span class="sous-titre">Des compétences à votre service</span>
       </div>
-				<div class="competences">
+				<div class="flex-item competences">
 					<div class="domaine-competence">
 						<h4>Domaines de compétences</h4>
 						<div>
@@ -363,10 +364,10 @@
         et continuer à vous
         <span class="bold-highlight">offrir des services de qualité</span>.
       </p>
-      <div class="all-formations">
+      <div class="flex-item all-formations">
 				<div class="formation">
 					<div class="formation-details">
-						<div>
+						<div class="flex-item">
 							<span class="date-formation">2020-2021</span>
 							<object data="assets/icons/icon-graduate.svg" type=""></object>
 							<a href="">Believemy.com</a>
@@ -425,9 +426,9 @@
 					</div>
 				</div>
 			</div>
-     <div class="download-cv">
+     <div class="flex-item download-cv">
       <object data="assets/icons/icon-pdf.svg" type=""></object>
-      <a download class="bold-highlight color-highlight" href="">Télécharger mon cv</a>
+      <a download="" class="bold-highlight color-highlight" href="">Télécharger mon cv</a>
      </div>
     </section>
 
