@@ -83,6 +83,17 @@ p{
   font-family: 'Alumni Sans', sans-serif;
   font-size: 2rem;
 }
+
+button{
+  font-size: 1.2rem;
+  padding: 0.7rem;
+  background-color: black;
+  color: rgb(73, 121, 170);
+}
+
+button:hover{
+  cursor: pointer;
+}
 /* Header styling */
 .contacts{
   padding: 0.5rem;
@@ -97,6 +108,7 @@ p{
   flex-direction: row;
   gap: 0.5rem
 }
+
 /* navbar styling */
 nav{
   position: sticky;
@@ -150,13 +162,20 @@ li a{
 }
 
 .hero-section-part ul{
-  margin-left: 4rem;
+  width: fit-content;
+  margin-left: 12rem;
+  font-weight: bold;
 }
+
+
 
 .hero-section-part  p:nth-child(2){
   margin-bottom: 8rem;
 }
 
+.right-section-part p{
+  font-size: 1.5rem;
+}
 /* section service styling  */
 .services-section{
   display: flex;
@@ -357,6 +376,7 @@ h5{
 .formation p{
   font-size: 1.5rem;
 }
+
 .certificat{
   margin-bottom: 0;
   padding: 1rem;
@@ -366,11 +386,10 @@ h5{
 }
 
 .certificat button{
-  font-size: 1rem;
-  padding: 0.7rem;
+  
   background-color: #131418;
   border-radius: 20px;
-  color: rgb(73, 121, 170);
+  
 }
 
 .download-cv{
@@ -394,7 +413,9 @@ h5{
 /* Realisation section styling */
 
 .realisation{
+  margin-bottom: 2rem;
   display: flex;
+  align-items: center;
   gap: 3rem;
 }
 
@@ -402,3 +423,43 @@ h5{
   width: 60%;
 }
 
+.second-position{
+  order: 10;
+  margin-left: 10rem;
+}
+
+h6{
+  font-size: 1rem;
+  text-decoration: underline;
+}
+
+img + div {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.titre-realisation{
+  color: rgb(245, 52, 52);;
+}
+
+.realisation button{
+  width: 6rem;
+}
+
+/* Footer styling */
+
+footer{
+  color: white;
+  padding: 3rem 5rem;
+  background-color: rgb(5, 5, 61);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+footer p{
+  font-size: smaller;
+}
