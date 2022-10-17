@@ -213,7 +213,7 @@ li a{
 }
 
 /* presentation styling */
-.presentation-section{
+#presentation-section{
   gap:2rem
 }
 
@@ -484,14 +484,14 @@ footer p{
   opacity: 1;
   filter: blur(0);
   transform: translateX(-5%);
-  transition-delay: 300ms;
+  transition-delay: 200ms;
 }
 
 .show-left{
   opacity: 1;
   filter: blur(0);
   transform: translateX(5%);
-  transition-delay: 300ms;
+  transition-delay: 200ms;
 }
 
 @media (prefers-reduced-motion: reduce) {

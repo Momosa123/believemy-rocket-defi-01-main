@@ -1,15 +1,19 @@
-const observerRight = new IntersectionObserver((entries)=>{
+const options = {
+  threshold: 1.0
+}
+
+function showRightElements(entries){
   entries.forEach((entry)=>{
-    console.log(entry)
+    // console.log(entry)
     if(entry.isIntersecting){
       entry.target.classList.add('show-right')
     } else {
       entry.target.classList.remove('show-right')
     }
   })
-})
+}
 
-const observerLeft = new IntersectionObserver((entries)=>{
+function showLeftElements(entries){
   entries.forEach((entry)=>{
     console.log(entry)
     if(entry.isIntersecting){
@@ -18,6 +22,14 @@ const observerLeft = new IntersectionObserver((entries)=>{
       entry.target.classList.remove('show-left')
     }
   })
+}
+
+const observerRight = new IntersectionObserver(showRightElements, {
+  threshold: 0.1
+})
+
+const observerLeft = new IntersectionObserver(showLeftElements, {
+  threshold: 0.1
 })
 
 const rightSlide = document.querySelectorAll('.right-slide')
