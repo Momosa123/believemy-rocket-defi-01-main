@@ -26,485 +26,508 @@
     <!-- Header Section -->
     <header id="header-section">
       <div class="flex-item contacts">
-        <div class="contact flex-item">
-          <object
+        <a class="email flex-item" 
+        href="mailto:mlamine@dev.com?subject=Demande d'infos&body=Bonjour, j'aurai besoin d'infos concernant"
+        title="me contacter par email">
+            <object
             data="./assets/icons/icon-email_res.svg"
             width="15"
             height="15"
-            type=""
-          ></object>
-          <p>mlamine@dev.com</p>
-        </div>
+            type="">
+            </object>
+            <p>mlamine@dev.com</p>
+        </a>
 
-        <div class="flex-item contact">
+        <div class="flex-item social-links">
+         <a href="">
           <object
-            data="./assets/icons/icon-linkedin_res.svg"
-            width="20"
-            height="20"
-            type=""
-          ></object>
+          data="./assets/icons/icon-linkedin_res.svg"
+          width="20"
+          height="20"
+          type="">
+          </object>
+         </a>
 
-          <object
+          <a href="">
+            <object
             data="./assets/icons/icon-twitter_res.svg"
             width="20"
             height="20"
-            type=""
-          ></object>
+            type="">
+          </object>
+          </a>
 
-          <object
+          <a href="">
+            <object
             data="./assets/icons/icon-instagram_res.svg"
             width="20"
             height="20"
-            type=""
-          ></object>
+            type="">
+          </object>
+          </a>
         </div>
 
-        <div class="flex-item contact">
-          <p>+33684088165</p>
+       
+          <a class="phone flex-item" href="tel:123-456-7890"
+          title="me contacter téléphone">
+            <p>+33684088165</p>
           <object
             data="./assets/icons/icon-phone_res.svg"
             width="15"
             height="15"
             type=""
           ></object>
+          </a>
+      
+      </div>
+<!-- Navbar  -->
+      <nav class="flex-item">
+        <div>
+          <p class="my-name">
+            Mlamine<span class="first-color-highlight">DEV</span>
+          </p>
         </div>
-      </div>
-    </header>
-
-    <!-- Navbar section  -->
-    <nav class="flex-item">
-      <div>
-        <p class="my-name">
-          Mlamine<span class="first-color-highlight">DEV</span>
-        </p>
-      </div>
-      <div>
-        <ul class="nav-list">
-          <li><a href="#header-section">Qui suis je ?</a></li>
-          <li><a href="#presentation-section">Mon parcours</a></li>
-          <li><a href="#competences-section">Mes compétences</a></li>
-          <li><a href="#realisation-section">Mes réalisations</a></li>
-        </ul>
-      </div>
-    </nav>
-
-    <!-- Hero section -->
-    <section class="hero-section">
-      <div class="hero-section-part left-hero-section-part">
-        <p>Hello, <br />Je suis <span class="my-name">Mouhamadou</span></p>
-        <p class="first-color-highlight">mlamine@dev.com</p>
-        <h1>Créateur freelance de solutions digitales</h1>
-      </div>
-      <div class="hero-img-container">
-        <img class="" src="./assets/images/home-page-header.png" alt="" />
-      </div>
-      <div>
-        <div class="hero-section-part right-section-part">
-          <p>Je conçois de belles choses simples. Et j'aime ce que je fais</p>
-          <ul>
-            <object
-              data="./assets/icons/network-internet-web-svgrepo-com.svg"
-              width="50"
-              height="50"
-              type=""
-            ></object>
-            <li>UI / UX Designer</li>
-            <li>Front-end</li>
-            <li>Back-end</li>
+        <div>
+          <ul class="nav-list">
+            <li>
+              <a href="#hero-section">Qui suis je ?</a>
+            </li>
+            <li>
+              <a href="#formation-section">Mon parcours</a>
+            </li>
+            <li>
+              <a href="#competences-section">Mes compétences</a>
+            </li>
+            <li>
+              <a href="#realisation-section">Mes réalisations</a>
+            </li>
           </ul>
         </div>
-      </div>
-    </section>
+      </nav>
+    </header>
 
-    <!-- Services section -->
-    <section class="flex-item services-section">
-      <div class="flex-item services">
-        <div class="flex-item service">
-          <object
-            data="assets/icons/icon-web-dev_res.svg"
-            width="25"
-            height="25"
-            type=""
-          ></object>
-          <p class="first-color-highlight">Création/refonte de site web</p>
+    <!-- Main section -->
+    <main>
+      <!-- Hero section -->
+      <section id="hero-section">
+        <div class="hero-section-part left-hero-section-part">
+          <p>Hello, <br />Je suis <span class="my-name">Mouhamadou</span></p>
+          <p class="first-color-highlight">mlamine@dev.com</p>
+          <h1>Créateur freelance de solutions digitales</h1>
         </div>
-
-        <div class="service">
-          <object
-            data="assets/icons/icon-seo.svg"
-            width="25"
-            height="25"
-            type=""
-          ></object>
-          <p class="second-color-highlight">Optimisation référencement SEO</p>
+        <div class="hero-img-container">
+          <img class="" src="./assets/images/home-page-header.png" alt="" />
         </div>
-
-        <div class="service">
-          <object
-            data="assets/icons/icon-ecommerce.svg"
-            width="25"
-            height="25"
-            type=""
-          ></object>
-          <p class="third-color-highlight">Sites e-commerce sur mesure</p>
-        </div>
-      </div>
-
-      <div class="services">
-        <h3>Comment puis je vous aider</h3>
-
-        <p>
-          je vous aiderai à trouver une solution et à
-          <span class="bold-highlight">résoudre vos problèmes numériques</span>.
-          Nous utilisons la conception et un processus simple et efficace pour
-          créer des solutions digitales
-        </p>
-
-        <p>
-          Je vous propose un
-          <span class="bold-highlight"
-            >accompagnement et des prestations personnalisées adaptées à vos
-            besoins</span
-          >. Et ceci tout au long du processus de
-          <span class="bold-highlight">création de votre site web</span>
-        </p>
-      </div>
-    </section>
-
-    <!-- Presentation Section -->
-    <section id="presentation-section" class="flex-item">
-      <div class="presentation-part">
-        <h3>Je suis un développeur web passionné</h3>
-
-        <p>
-          Ma passion pour le développement web a débuté dans les années 90.
-          Depuis bientôt plus de 2 ans, j'ai effectué un vitrage à 360°. Un
-          changement radical de cursus, pour pouvoir exploité pleinement ma
-          passion.
-        </p>
-
-        <p>
-          Depuis ce jour, je mets tout en oeuvre pour percer dans cette voie,
-          tout en prenant du plaisir sur divers projets. Basé sur Genève depuis
-          10 ans, c'est en Septembre 2020 que je décide concrétement de sauter
-          le pas et de devenier développeur web indépendant.
-        </p>
-        <p>
-          Mon expérience professionnelle passée, me permet dd'être à l'écoute et
-          de mieux comprendre vos attentes. De répondre au besion en fonction du
-          domaine d'activité et de viser l'excellence dans ma prestation.
-        </p>
-      </div>
-      <div>
-        <img src="assets/images/website-developpement.svg" alt="" />
-      </div>
-    </section>
-
-		<!-- Competences section -->
-    <section id="competences-section">
-      <div class="titre-section">
-        <h2>Mes compétences</h2>
-        <span class="sous-titre">Des compétences à votre service</span>
-      </div>
-				<div class="flex-item competences">
-					<div class="domaine-competence">
-						<h4>Domaines de compétences</h4>
-						<div>
-							<ul class="competences-list">
-								<li>
-									<p class="first-color-highlight">Développement front-end.</p>        
-									<span class="competence-details"> site vitrine, blog, e-commerce etc...</span> 
-								</li>
-	
-								<li>
-									<p class="first-color-highlight">Développement back-end.</p>        
-									<span class="competence-details">gestion de base de données, rest API</span> 
-								</li>
-	
-								<li>
-									<p class="first-color-highlight">Gestion de projet</p>        
-									<span class="competence-details">Méthode Agile, Kanban, livraison continue</span> 
-								</li>
-	
-								<li>
-									<p class="first-color-highlight">CI / CD</p>        
-									<span class="competence-details">Github action, Docker, publication package NPM</span> 
-								</li>
-							</ul>
-						</div>
-					</div>
-					<div class="competence-dev">
-						<h4>Compétences en développement</h4>
-						<div class="conteneur-icones-competences">
-							<object
-								data="assets/icons/icon-html.svg"
-								class="icone-developpement"
-								type=""
-							></object>
-							<object
-								data="assets/icons/icon-css.svg"
-								class="icone-developpement"
-								type=""
-							></object>
-							<object
-								data="assets/icons/icon-javascript.svg"
-								class="icone-developpement"
-								type=""
-							></object>
-							<object
-								data="assets/icons/icon-php.svg"
-								class="icone-developpement"
-								type=""
-							></object>
-							<object
-								data="assets/icons/icon-sass.svg"
-								class="icone-developpement"
-								type=""
-							></object>
-							<object
-								data="assets/icons/tailwind.svg"
-								class="icone-developpement tailwind"
-								type=""
-							></object>
-							<object
-								data="assets/icons/icon-typescript.svg"
-								class="icone-developpement"
-								type=""
-							></object>
-							<object
-								data="assets/icons/icon-react.svg"
-								class="icone-developpement"
-								type=""
-							></object>
-							<object
-								data="assets/icons/icon-vite.svg"
-								class="icone-developpement"
-								type=""
-							></object>
-							<object
-								data="assets/icons/icon-nodejs.svg"
-								class="icone-developpement"
-								type=""
-							></object>
-							<object
-								data="assets/icons/icon-pgsql.svg"
-								class="icone-developpement"
-								type=""
-							></object>
-							<object
-								data="assets/icons/icon-mysql.svg"
-								class="icone-developpement"
-								type=""
-							></object>
-							<object
-								data="assets/icons/icon-mongodb.svg"
-								class="icone-developpement mongoDB"
-								type=""
-							></object>
-							<object
-								data="assets/icons/icon-git.svg"
-								class="icone-developpement"
-								type=""
-							></object>
-							<object
-								data="assets/icons/icon-vscode.svg"
-								class="icone-developpement"
-								type=""
-							></object>
-							<object
-								data="assets/icons/icon-phpstorm.svg"
-								class="icone-developpement"
-								type=""
-							></object>
-						</div>
-					
-					<div class="competence-graphique">
-						<h4>Compétences en conception graphique</h4>
-						<div class="conteneur-icones-competences">
-							<object
-								data="assets/icons/icon-image-edit.svg"
-								class="icone-conception-graphique"
-								type=""
-							></object>
-							<object
-								data="assets/icons/icon-vector-edit.svg"
-								class="icone-conception-graphique"
-								type=""
-							></object>
-							<object
-								data="assets/icons/icon-3D-cube.svg"
-								class="icone-conception-graphique"
-								type=""
-							></object>
-							<object
-								data="assets/icons/icon-video.svg"
-								class="icone-conception-graphique"
-								type=""
-							></object>
-						</div>
-					</div>
-				</div>
-				</div>
-    </section>
-
-		<!-- Formation Section -->
-
-    <section>
-      <div class="titre-section">
-				<h2>En formation continue</h2>
-      <span class="sous-titre"
-        >Pour approndir et développer de nouvelles compétences</span
-      >
-			</div>
-      <p>
-        Me former tous les jours et mettre à jour mes acquis, c'est
-        <span class="bold-highlight">pouvoir m'adapter</span> et préserver ma
-        <span class="bold-highlight">performance et compétitivité</span>. Je
-        peux ainsi,
-        <span class="bold-highlight">vous proposer de nouveaux services</span>
-        et continuer à vous
-        <span class="bold-highlight">offrir des services de qualité</span>.
-      </p>
-      <div class="flex-item all-formations">
-				<div class="formation">
-					<div class="formation-details">
-						<div class="flex-item">
-							<span class="date-formation">2020-2021</span>
-							<object data="assets/icons/icon-graduate.svg" type=""></object>
-							<a href="">Believemy.com</a>
-							<h5>Formation online</h5>
-							<span>"Développeur Web"</span>
-						</div>
-		
-						<p>
-							html/css, Sass, Javascript, React, PHP, Git, Responsive design,
-							Boostrap, Tailwind
-						</p>
-		
-					</div>
-					<div class="certificat">
-						<button>Afficher mon certificat</button>
-					</div>
-				</div>
-        
-        <div class="formation">
-					<div class="formation-details">
-						<div>
-							<span class="date-formation">2017-2018</span>
-							<object data="assets/icons/icon-graduate.svg" type=""></object>
-							<a href="">Cadschool.ch</a>
-							<h5>Formation Marketing Digital</h5>
-							<span>"Community manager"</span>
-						</div>
-		
-						<p>
-							Référencement SEO, rédaction web, réseaux sociaux, publicité
-						</p>
-		
-					</div>
-					<div class="certificat">
-						<button>Afficher mon certificat</button>
-					</div>
-				</div>
-
-        <div class="formation">
-					<div class="formation-details">
-						<div>
-							<span class="date-formation">2008-2009</span>
-							<object data="assets/icons/icon-graduate.svg" type=""></object>
-							<a href="">gretaformation.fr</a>
-							<h5>Infographie et communication numérique</h5>
-							<span>"Infographiste"</span>
-						</div>
-		
-						<p>
-							Photoshop, Illustrator, Première, Lightwave 3D, Blender
-						</p>
-		
-					</div>
-					<div class="certificat">
-						<button>Afficher mon certificat</button>
-					</div>
-				</div>
-			</div>
-     <div class="flex-item download-cv">
-      <object data="assets/icons/icon-pdf.svg" type=""></object>
-      <a download="" class="bold-highlight color-highlight" href="">Télécharger mon cv</a>
-     </div>
-    </section>
-
-    <!-- Realisation section  -->
-    <section id="realisation-section">
-
-      <div class="titre-section">
-        <h2>Mes réalisations</h2>
-        <span>Des images valent toujours mieux qu'un long discours</span>
-      </div>
-
-      <div class="right-slide realisation">
-        <img src="assets/images/barber.jpeg" alt="" />
         <div>
-          <div>
-            <h6>Technologies utilisées</h6>
-            <span>HTML, CSS/SCSS, Bootstrap</span>
+          <div class="hero-section-part right-section-part">
+            <p>Je conçois de belles choses simples. Et j'aime ce que je fais</p>
+            <ul>
+              <object
+                data="./assets/icons/network-internet-web-svgrepo-com.svg"
+                width="50"
+                height="50"
+                type=""
+              ></object>
+              <li>UI / UX Designer</li>
+              <li>Front-end</li>
+              <li>Back-end</li>
+            </ul>
           </div>
-          <p class="titre-realisation">Maquette pour un salon de coiffure</p>
-          <button class="visit-website">Visiter</button>
         </div>
-      </div>
-
-      <div class="left-slide realisation">
-        <img class="second-position" src="assets/images/fruit.jpeg" alt="" />
-        <div>
-          <div>
-            <h6>Technologies utilisées</h6>
-            <span>HTML, CSS/SCSS, Javacript</span>
+      </section>
+  
+      <!-- Services section -->
+      <section class="flex-item services-section">
+        <div class="flex-item services">
+          <div class="service">
+            <object
+              data="assets/icons/icon-web-dev_res.svg"
+              width="25"
+              height="25"
+              type=""
+            ></object>
+            <p class="first-color-highlight">Création/refonte de site web</p>
           </div>
-          <p class="titre-realisation">
-            Maquette pour un site de vente de fruits
+  
+          <div class="service">
+            <object
+              data="assets/icons/icon-seo.svg"
+              width="25"
+              height="25"
+              type=""
+            ></object>
+            <p class="second-color-highlight">Optimisation référencement SEO</p>
+          </div>
+  
+          <div class="service">
+            <object
+              data="assets/icons/icon-ecommerce.svg"
+              width="25"
+              height="25"
+              type=""
+            ></object>
+            <p class="third-color-highlight">Sites e-commerce sur mesure</p>
+          </div>
+        </div>
+  
+        <div class="services">
+          <h3>Comment puis je vous aider</h3>
+  
+          <p>
+            je vous aiderai à trouver une solution et à
+            <span class="bold-highlight">résoudre vos problèmes numériques</span>.
+            Nous utilisons la conception et un processus simple et efficace pour
+            créer des solutions digitales
           </p>
-          <button class="visit-website">Visiter</button>
+  
+          <p>
+            Je vous propose un
+            <span class="bold-highlight"
+              >accompagnement et des prestations personnalisées adaptées à vos
+              besoins</span
+            >. Et ceci tout au long du processus de
+            <span class="bold-highlight">création de votre site web</span>
+          </p>
         </div>
-      </div>
-
-      <div class="right-slide realisation">
-        <img src="assets/images/space.jpeg" alt="" />
+      </section>
+  
+      <!-- Presentation Section -->
+      <section id="presentation-section" class="flex-item">
+        <div class="presentation-part">
+          <h3>Je suis un développeur web passionné</h3>
+  
+          <p>
+            Ma passion pour le développement web a débuté dans les années 90.
+            Depuis bientôt plus de 2 ans, j'ai effectué un vitrage à 360°. Un
+            changement radical de cursus, pour pouvoir exploité pleinement ma
+            passion.
+          </p>
+  
+          <p>
+            Depuis ce jour, je mets tout en oeuvre pour percer dans cette voie,
+            tout en prenant du plaisir sur divers projets. Basé sur Genève depuis
+            10 ans, c'est en Septembre 2020 que je décide concrétement de sauter
+            le pas et de devenier développeur web indépendant.
+          </p>
+          <p>
+            Mon expérience professionnelle passée, me permet dd'être à l'écoute et
+            de mieux comprendre vos attentes. De répondre au besion en fonction du
+            domaine d'activité et de viser l'excellence dans ma prestation.
+          </p>
+        </div>
         <div>
-          <div>
-            <h6>Technologies utilisées</h6>
-            <span>HTML, CSS/SCSS, Javascript</span>
-          </div>
-          <p class="titre-realisation">Maquette pour le site de la NASA</p>
-          <button>Visiter</button>
+          <img src="assets/images/website-developpement.svg" alt="" />
         </div>
-      </div>
-
-      <div class="left-slide realisation">
-        <img class="second-position" src="assets/images/sport.jpeg" alt="" />
-        <div>
-          <div>
-            <h6>Technologies utilisées</h6>
-            <span>HTML, CSS/SCSS, Javascript, Php, Symfony</span>
-          </div>
-          <p class="titre-realisation">Site vitrine pour une salle de sport</p>
-          <button class="visit-website">Visiter</button>
+      </section>
+  
+      <!-- Competences section -->
+      <section id="competences-section">
+        <div class="titre-section">
+          <h2>Mes compétences</h2>
+          <span class="sous-titre">Des compétences à votre service</span>
         </div>
-      </div>
-
-      <div class="right-slide realisation">
-        <img src="assets/images/cake.jpeg" alt="" />
-        <div>
-          <div>
-            <h6>Technologies utilisées</h6>
-            <span>HTML, CSS/SCSS, Bootstrap</span>
+          <div class="flex-item competences">
+            <div class="domaine-competence">
+              <h4>Domaines de compétences</h4>
+              <div>
+                <ul class="competences-list">
+                  <li>
+                    <p class="first-color-highlight">Développement front-end.</p>        
+                    <span class="competence-details"> site vitrine, blog, e-commerce etc...</span> 
+                  </li>
+    
+                  <li>
+                    <p class="first-color-highlight">Développement back-end.</p>        
+                    <span class="competence-details">gestion de base de données, rest API</span> 
+                  </li>
+    
+                  <li>
+                    <p class="first-color-highlight">Gestion de projet</p>        
+                    <span class="competence-details">Méthode Agile, Kanban, livraison continue</span> 
+                  </li>
+    
+                  <li>
+                    <p class="first-color-highlight">CI / CD</p>        
+                    <span class="competence-details">Github action, Docker, publication package NPM</span> 
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="competence-dev">
+              <h4>Compétences en développement</h4>
+              <div class="conteneur-icones-competences">
+                <object
+                  data="assets/icons/icon-html.svg"
+                  class="icone-developpement"
+                  type=""
+                ></object>
+                <object
+                  data="assets/icons/icon-css.svg"
+                  class="icone-developpement"
+                  type=""
+                ></object>
+                <object
+                  data="assets/icons/icon-javascript.svg"
+                  class="icone-developpement"
+                  type=""
+                ></object>
+                <object
+                  data="assets/icons/icon-php.svg"
+                  class="icone-developpement"
+                  type=""
+                ></object>
+                <object
+                  data="assets/icons/icon-sass.svg"
+                  class="icone-developpement"
+                  type=""
+                ></object>
+                <object
+                  data="assets/icons/tailwind.svg"
+                  class="icone-developpement tailwind"
+                  type=""
+                ></object>
+                <object
+                  data="assets/icons/icon-typescript.svg"
+                  class="icone-developpement"
+                  type=""
+                ></object>
+                <object
+                  data="assets/icons/icon-react.svg"
+                  class="icone-developpement"
+                  type=""
+                ></object>
+                <object
+                  data="assets/icons/icon-vite.svg"
+                  class="icone-developpement"
+                  type=""
+                ></object>
+                <object
+                  data="assets/icons/icon-nodejs.svg"
+                  class="icone-developpement"
+                  type=""
+                ></object>
+                <object
+                  data="assets/icons/icon-pgsql.svg"
+                  class="icone-developpement"
+                  type=""
+                ></object>
+                <object
+                  data="assets/icons/icon-mysql.svg"
+                  class="icone-developpement"
+                  type=""
+                ></object>
+                <object
+                  data="assets/icons/icon-mongodb.svg"
+                  class="icone-developpement mongoDB"
+                  type=""
+                ></object>
+                <object
+                  data="assets/icons/icon-git.svg"
+                  class="icone-developpement"
+                  type=""
+                ></object>
+                <object
+                  data="assets/icons/icon-vscode.svg"
+                  class="icone-developpement"
+                  type=""
+                ></object>
+                <object
+                  data="assets/icons/icon-phpstorm.svg"
+                  class="icone-developpement"
+                  type=""
+                ></object>
+              </div>
+            
+            <div class="competence-graphique">
+              <h4>Compétences en conception graphique</h4>
+              <div class="conteneur-icones-competences">
+                <object
+                  data="assets/icons/icon-image-edit.svg"
+                  class="icone-conception-graphique"
+                  type=""
+                ></object>
+                <object
+                  data="assets/icons/icon-vector-edit.svg"
+                  class="icone-conception-graphique"
+                  type=""
+                ></object>
+                <object
+                  data="assets/icons/icon-3D-cube.svg"
+                  class="icone-conception-graphique"
+                  type=""
+                ></object>
+                <object
+                  data="assets/icons/icon-video.svg"
+                  class="icone-conception-graphique"
+                  type=""
+                ></object>
+              </div>
+            </div>
           </div>
-          <p class="titre-realisation">Site de vente de cakes</p>
-          <button class="visit-website">Visiter</button>
+          </div>
+      </section>
+  
+      <!-- Formation Section -->
+  
+      <section id="formation-section">
+        <div class="titre-section">
+          <h2>En formation continue</h2>
+        <span class="sous-titre"
+          >Pour approndir et développer de nouvelles compétences</span
+        >
         </div>
-
-      </div>
-
-    </section>
+        <p>
+          Me former tous les jours et mettre à jour mes acquis, c'est
+          <span class="bold-highlight">pouvoir m'adapter</span> et préserver ma
+          <span class="bold-highlight">performance et compétitivité</span>. Je
+          peux ainsi,
+          <span class="bold-highlight">vous proposer de nouveaux services</span>
+          et continuer à vous
+          <span class="bold-highlight">offrir des services de qualité</span>.
+        </p>
+        <div class="flex-item all-formations">
+          <div class="formation">
+            <div class="formation-details">
+              <div class="flex-item">
+                <span class="date-formation">2020-2021</span>
+                <object data="assets/icons/icon-graduate.svg" type=""></object>
+                <a href="">Believemy.com</a>
+                <h5>Formation online</h5>
+                <span>"Développeur Web"</span>
+              </div>
+      
+              <p>
+                html/css, Sass, Javascript, React, PHP, Git, Responsive design,
+                Boostrap, Tailwind
+              </p>
+      
+            </div>
+            <div class="certificat">
+              <button>Afficher mon certificat</button>
+            </div>
+          </div>
+          
+          <div class="formation">
+            <div class="formation-details">
+              <div>
+                <span class="date-formation">2017-2018</span>
+                <object data="assets/icons/icon-graduate.svg" type=""></object>
+                <a href="">Cadschool.ch</a>
+                <h5>Formation Marketing Digital</h5>
+                <span>"Community manager"</span>
+              </div>
+      
+              <p>
+                Référencement SEO, rédaction web, réseaux sociaux, publicité
+              </p>
+      
+            </div>
+            <div class="certificat">
+              <button>Afficher mon certificat</button>
+            </div>
+          </div>
+  
+          <div class="formation">
+            <div class="formation-details">
+              <div>
+                <span class="date-formation">2008-2009</span>
+                <object data="assets/icons/icon-graduate.svg" type=""></object>
+                <a href="">gretaformation.fr</a>
+                <h5>Infographie et communication numérique</h5>
+                <span>"Infographiste"</span>
+              </div>
+      
+              <p>
+                Photoshop, Illustrator, Première, Lightwave 3D, Blender
+              </p>
+      
+            </div>
+            <div class="certificat">
+              <button>Afficher mon certificat</button>
+            </div>
+          </div>
+        </div>
+       <div class="flex-item download-cv">
+        <object data="assets/icons/icon-pdf.svg" type=""></object>
+        <a download="" 
+          class="bold-highlight color-highlight" href=""
+          title="Télécharger mon cv">Télécharger mon cv</a>
+       </div>
+      </section>
+  
+      <!-- Realisation section  -->
+      <section id="realisation-section">
+  
+        <div class="titre-section">
+          <h2>Mes réalisations</h2>
+          <span>Des images valent toujours mieux qu'un long discours</span>
+        </div>
+  
+        <div class="right-slide realisation">
+          <img src="assets/images/barber.jpeg" alt="" />
+          <div>
+            <div>
+              <h6>Technologies utilisées</h6>
+              <span>HTML, CSS/SCSS, Bootstrap</span>
+            </div>
+            <p class="titre-realisation">Maquette pour un salon de coiffure</p>
+            <button class="visit-website">Visiter</button>
+          </div>
+        </div>
+  
+        <div class="left-slide realisation">
+          <img class="second-position" src="assets/images/fruit.jpeg" alt="" />
+          <div>
+            <div>
+              <h6>Technologies utilisées</h6>
+              <span>HTML, CSS/SCSS, Javacript</span>
+            </div>
+            <p class="titre-realisation">
+              Maquette pour un site de vente de fruits
+            </p>
+            <button class="visit-website">Visiter</button>
+          </div>
+        </div>
+  
+        <div class="right-slide realisation">
+          <img src="assets/images/space.jpeg" alt="" />
+          <div>
+            <div>
+              <h6>Technologies utilisées</h6>
+              <span>HTML, CSS/SCSS, Javascript</span>
+            </div>
+            <p class="titre-realisation">Maquette pour le site de la NASA</p>
+            <button>Visiter</button>
+          </div>
+        </div>
+  
+        <div class="left-slide realisation">
+          <img class="second-position" src="assets/images/sport.jpeg" alt="" />
+          <div>
+            <div>
+              <h6>Technologies utilisées</h6>
+              <span>HTML, CSS/SCSS, Javascript, Php, Symfony</span>
+            </div>
+            <p class="titre-realisation">Site vitrine pour une salle de sport</p>
+            <button class="visit-website">Visiter</button>
+          </div>
+        </div>
+  
+        <div class="right-slide realisation">
+          <img src="assets/images/cake.jpeg" alt="" />
+          <div>
+            <div>
+              <h6>Technologies utilisées</h6>
+              <span>HTML, CSS/SCSS, Bootstrap</span>
+            </div>
+            <p class="titre-realisation">Site de vente de cakes</p>
+            <button class="visit-website">Visiter</button>
+          </div>
+  
+        </div>
+  
+      </section>
+    </main>
     <footer>
       <h3><span class="second-color-highlight">Momo dev</span> portfolio</h3>
       <p>
@@ -512,37 +535,56 @@
         toujours été indispensable au bon développement de son activité, pour
         aider à améliorer son image et/ou celle de son entreprise.
       </p>
-      <p class="first-color-highlight">mlamine@dev.com</p>
+      <a href="mailto:mlamine@dev.com?subject=Demande d'infos&body=Bonjour, j'aurai besoin d'infos concernant"
+        
+        title="me contacter par email">
+        <p class="first-color-highlight">mlamine@dev.com</p>
+      </a>
+      
       <div>
         <ul class="nav-list">
-          <li><a href="">Qui suis je ?</a></li>
-          <li><a href="">Mon parcours</a></li>
-          <li><a href="">Mes compétences</a></li>
-          <li><a href="">Mes réalisations</a></li>
+          <li>
+            <a href="#hero-section">Qui suis je ?</a>
+          </li>
+          <li>
+            <a href="#formation-section">Mon parcours</a>
+          </li>
+          <li>
+            <a href="#competences-section">Mes compétences</a>
+          </li>
+          <li>
+            <a href="#realisation-section">Mes réalisations</a>
+          </li>
         </ul>
       </div>
-      <div class="contact">
-        <object
-          data="./assets/icons/icon-linkedin_res.svg"
-          width="20"
-          height="20"
-          type=""
-        ></object>
+      <div class="flex-item social-links">
+        <a href="">
+         <object
+         data="./assets/icons/icon-linkedin_res.svg"
+         width="20"
+         height="20"
+         type="">
+         </object>
+        </a>
 
-        <object
-          data="./assets/icons/icon-twitter_res.svg"
-          width="20"
-          height="20"
-          type=""
-        ></object>
+         <a href="">
+           <object
+           data="./assets/icons/icon-twitter_res.svg"
+           width="20"
+           height="20"
+           type="">
+         </object>
+         </a>
 
-        <object
-          data="./assets/icons/icon-instagram_res.svg"
-          width="20"
-          height="20"
-          type=""
-        ></object>
-      </div>
+         <a href="">
+           <object
+           data="./assets/icons/icon-instagram_res.svg"
+           width="20"
+           height="20"
+           type="">
+         </object>
+         </a>
+       </div>
     </footer>
   </body>
 </html>
