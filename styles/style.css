@@ -4,7 +4,7 @@
 
 
 
-@font-face {
+/* @font-face {
 font-family: "Nunito Sans";
 src: url("/assets/fonts/Nunito-Sans-300.ttf");
 src: url("/assets/fonts/Nunito-Sans-300.woff") format("woff"),
@@ -34,7 +34,7 @@ url("/assets/fonts/Nunito-Sans-300.svg") format("svg");
   src: url("/assets/fonts/Nunito-Sans-Regular.woff") format("woff"),
   url("/assets/fonts/Nunito-Sans-Regular.eot") format("opentype"),
   url("/assets/fonts/Nunito-Sans-Regular.svg") format("svg");
-  }
+  } */
 
 /* petit reset minimal de base */
 *,

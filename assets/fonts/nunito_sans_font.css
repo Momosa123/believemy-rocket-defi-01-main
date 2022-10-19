@@ -34,6 +34,7 @@
     url('../fonts/Nunito-Sans-700.ttf') format('truetype'), /* Safari, Android, iOS */
     url('../fonts/Nunito-Sans-700.svg#NunitoSans') format('svg'); /* Legacy iOS */
 }
+
 @font-face {
   font-family: 'Nunito Sans';
   font-style: normal;
